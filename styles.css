@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.main-box{
+    width: 800px;
+    height: 800px;
+    background: black;
+    border-radius: 5%;
+    border: 10px solid rgb(71, 70, 70);
+    position: relative;
+}
+
+.title-box{
+    width: 500px;
+    height: 60px;
+    background: rgb(233, 232, 232);
+    top: 30px;
+    left: 98px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#title{
+    font-family: 'Kirang Haerang', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+    cursor: default;
+}
+
+.btn-1{
+    width: 150px;
+    height: 150px;
+    background: rgb(219, 40, 40);
+    top: 150px;
+    left: 98px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+    box-shadow: 0 0 .5rem black;
+}
+
+.btn-4{
+    width: 150px;
+    height: 150px;
+    background: rgb(19, 189, 48);
+    top: 350px;
+    left: 98px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-7{
+    width: 150px;
+    height: 150px;
+    background: rgb(207, 26, 207);
+    top: 550px;
+    left: 98px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-2{
+    width: 150px;
+    height: 150px;
+    background: rgb(54, 104, 197);
+    top: 150px;
+    left: 320px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-5{
+    width: 150px;
+    height: 150px;
+    background: rgb(223, 139, 14);
+    top: 350px;
+    left: 320px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-8{
+    width: 150px;
+    height: 150px;
+    background: rgb(182, 48, 99);
+    top: 550px;
+    left: 320px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-3{
+    width: 150px;
+    height: 150px;
+    background: rgb(235, 200, 7);
+    top: 150px;
+    left: 546px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-6{
+    width: 150px;
+    height: 150px;
+    background: rgb(29, 157, 196);
+    top: 350px;
+    left: 546px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.btn-9{
+    width: 150px;
+    height: 150px;
+    background: rgb(30, 139, 79);
+    top: 550px;
+    left: 546px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-color: white;
+}
+
+.rights{
+    width: 800px;
+    top: 750px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rights-text{
+    color: rgb(160, 160, 160);
+    cursor: default;
+}
+
+.power-btn{
+    width:60px;
+    height: 60px;
+    background: rgb(233, 232, 232);
+    border-radius: 10px;
+    position: absolute;
+    top: 28px;
+    left: 632px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(19, 189, 48);
+    border: solid 3px;
+    border-color: rgb(19, 189, 48);
+    cursor: pointer;
+}
+
+.btn-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    cursor: default;
+    
+}
+
+.hit{
+    border-color: #e60404;
+    box-shadow: 0 0 1rem #e71809;
+    transform: scale(1.1);  
+}
+
+.key{
+    transition: all .08s ease;
+}

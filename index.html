@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href="styles.css">
+
+    <title>Drum Machine</title>
+    <link rel="icon" href="assets/images/drummachine.png">
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <div class="title-box">
+                <div class="title-text">
+                    <h1 id="title">Drum Machine</h1>
+                </div>
+            </div>
+            <div class="power-btn" onclick="powerOnOff()">
+                <i class="fas fa-power-off fa-2x"></i>
+            </div>
+                <div data-key="81" class="btn-1 key">
+                    <kbd class="btn-text"> Q </kbd>
+                </div>
+                <div data-key="87" class="btn-2 key">
+                    <kbd class="btn-text"> W </kbd>
+                </div>
+                <div data-key="69" class="btn-3 key">
+                    <kbd class="btn-text"> E </kbd>
+                </div>
+                <div data-key="65" class="btn-4 key"> 
+                    <kbd class="btn-text"> A </kbd>
+                </div>
+                <div data-key="83" class="btn-5 key">
+                    <kbd class="btn-text"> S </kbd>
+                </div>
+                <div data-key="68" class="btn-6 key">
+                    <kbd class="btn-text"> D </kbd>
+                </div>
+                <div data-key="90" class="btn-7 key">
+                    <kbd class="btn-text"> Z </kbd>
+                </div>
+                <div data-key="88" class="btn-8 key">
+                    <kbd class="btn-text"> X </kbd>
+                </div>
+                <div data-key="67" class="btn-9 key">
+                    <kbd class="btn-text"> C </kbd>
+            </div>
+        </div>
+        <div class="rights">
+            <p id="rights-text">Copyright© 2021 Veron Sajendra Baranige</p>
+        </div>
+    </div>
+
+    <audio data-key="81" src="assets/audio/kick.wav"></audio>
+    <audio data-key="87" src="assets/audio/hihat.wav"></audio>
+    <audio data-key="69" src="assets/audio/clap.wav"></audio>
+    <audio data-key="65" src="assets/audio/808.wav"></audio>
+    <audio data-key="83" src="assets/audio/snare.wav"></audio>
+    <audio data-key="68" src="assets/audio/vocalshot.wav"></audio>
+    <audio data-key="90" src="assets/audio/shaker.wav"></audio>
+    <audio data-key="88" src="assets/audio/pluck.wav"></audio>
+    <audio data-key="67" src="assets/audio/8bithit.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
